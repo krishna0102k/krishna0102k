@@ -1,6 +1,6 @@
 package com.example.willto
 
-data class Puppy(
+data class Listings(
     val id: Int,
     val title: String,
     val sex: String,

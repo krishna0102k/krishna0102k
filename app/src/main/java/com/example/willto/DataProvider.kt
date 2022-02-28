@@ -2,24 +2,24 @@ package com.example.willto
 
 object DataProvider {
 
-    val puppyList = listOf(
-        Puppy(
+    val mainList = listOf(
+        Listings(
             id = 1,
-            title = "Monty",
+            title = "UNLISTED- Cohost alert No book no cohost 555",
             sex = "Male",
             age = 14,
-            description = "Monty enjoys chicken treats and cuddling while watching Seinfeld.",
+            description = "UNLISTED- Cohost alert No book no cohost 555",
             puppyImageId = R.drawable.ic_launcher_background
         ),
-        Puppy(
+        Listings(
             id = 2,
-            title = "Jubilee",
+            title = "FAKE QA Listing do not Book",
             sex = "Female",
             age = 6,
             description = "Jubilee enjoys thoughtful discussions by the campfire.",
             puppyImageId = R.drawable.ic_launcher_background
         ),
-        Puppy(
+        Listings(
             id = 3,
             title = "Beezy",
             sex = "Male",
@@ -27,7 +27,7 @@ object DataProvider {
             description = "Beezy's favorite past-time is helping you choose your brand color.",
             puppyImageId = R.drawable.ic_launcher_background
         ),
-        Puppy(
+        Listings(
             id = 4,
             title = "Mochi",
             sex = "Male",
@@ -35,7 +35,7 @@ object DataProvider {
             description = "Mochi is the perfect \"rubbery ducky\" debugging pup, always listening.",
             puppyImageId = R.drawable.ic_launcher_background
         ),
-        Puppy(
+        Listings(
             id = 5,
             title = "Brewery",
             sex = "Female",

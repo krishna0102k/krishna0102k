@@ -29,20 +29,20 @@ class MainActivity : AppCompatActivity() {
 
     @Composable
     fun setRecyclerView() {
-        val puppies = remember { DataProvider.puppyList }
+        val puppies = remember { DataProvider.mainList }
         LazyColumn(
             contentPadding = PaddingValues(horizontal = 16.dp, vertical = 8.dp)
         ) {
             items(
                 items = puppies,
                 itemContent = {
-                    PuppyListItem(puppy = it)
+                    ListItem(listings = it)
                 })
         }
     }
 
     @Composable
-    fun PuppyListItem(puppy: Puppy) {
+    fun ListItem(listings: Listings) {
         Row {
             Column(
                 modifier = Modifier
@@ -50,8 +50,8 @@ class MainActivity : AppCompatActivity() {
                     .fillMaxWidth()
                     .align(Alignment.CenterVertically)
             ) {
-                Text(text = puppy.title, style = typography.h6)
-                Text(text = "VIEW DETAIL", style = typography.caption)
+                Text(text = listings.title, style = typography.h6)
+                Text(text = "Entire place", style = typography.caption)
             }
         }
     }
