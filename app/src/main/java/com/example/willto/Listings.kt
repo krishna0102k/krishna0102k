@@ -6,5 +6,5 @@ data class Listings(
     val sex: String,
     val age: Int,
     val description: String,
-    val puppyImageId: Int = 0
+    val ListingImageId: Int = 0
 )

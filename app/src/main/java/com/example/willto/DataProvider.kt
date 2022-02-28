@@ -9,7 +9,7 @@ object DataProvider {
             sex = "Male",
             age = 14,
             description = "UNLISTED- Cohost alert No book no cohost 555",
-            puppyImageId = R.drawable.ic_launcher_background
+            ListingImageId = R.drawable.ic_launcher_background
         ),
         Listings(
             id = 2,
@@ -17,7 +17,7 @@ object DataProvider {
             sex = "Female",
             age = 6,
             description = "Jubilee enjoys thoughtful discussions by the campfire.",
-            puppyImageId = R.drawable.ic_launcher_background
+            ListingImageId = R.drawable.ic_launcher_background
         ),
         Listings(
             id = 3,
@@ -25,7 +25,7 @@ object DataProvider {
             sex = "Male",
             age = 8,
             description = "Beezy's favorite past-time is helping you choose your brand color.",
-            puppyImageId = R.drawable.ic_launcher_background
+            ListingImageId = R.drawable.ic_launcher_background
         ),
         Listings(
             id = 4,
@@ -33,7 +33,7 @@ object DataProvider {
             sex = "Male",
             age = 10,
             description = "Mochi is the perfect \"rubbery ducky\" debugging pup, always listening.",
-            puppyImageId = R.drawable.ic_launcher_background
+            ListingImageId = R.drawable.ic_launcher_background
         ),
         Listings(
             id = 5,
@@ -41,7 +41,7 @@ object DataProvider {
             sex = "Female",
             age = 12,
             description = "Brewery loves fetching you your favorite homebrew.",
-            puppyImageId = R.drawable.ic_launcher_background
+            ListingImageId = R.drawable.ic_launcher_background
         ),
     )
 }
