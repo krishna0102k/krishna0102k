@@ -60,7 +60,7 @@ class MainActivity : AppCompatActivity() {
 
         ) {
             Row {
-                PuppyImage(listings)
+                ListingImage(listings)
                 Column(
                     modifier = Modifier
                         .padding(16.dp)
@@ -68,17 +68,16 @@ class MainActivity : AppCompatActivity() {
                         .align(Alignment.CenterVertically)
                 ) {
                     Text(text = listings.title, style = typography.h6)
-                    Text(text = "VIEW DETAIL", style = typography.caption)
-
+                    Text(text = "Entire Place", style = typography.caption)
                 }
             }
         }
     }
 
     @Composable
-    private fun PuppyImage(puppy: Listings) {
+    private fun ListingImage(listings: Listings) {
         Image(
-            painter = painterResource(id = puppy.ListingImageId),
+            painter = painterResource(id = listings.ListingImageId),
             contentDescription = null,
             contentScale = ContentScale.Crop,
             modifier = Modifier
